@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "jelambrar",
-  title: "Hi all, I'm Jorge Lambraño",
+  title: "Hi all,\nI'm Jorge Lambraño",
   subTitle: emoji(
-    "A passionate Software Developer and Data Engineer 🚀 having an experience of building applications with JavaScript / Python / Nodejs  and some other cool libraries and frameworks."
+    "A passionate Software Developer and Data Engineer 🚀 having an experience of building applications with JavaScript / Python / Nodejs and some other cool libraries and frameworks and SQL and No-SQL databases."
   ),
   resumeLink:
     "https://github.com/jelambrar96/resumes/blob/master/markdown/jelambrar.pdf", // Set to empty to hide the button
@@ -65,16 +65,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -89,33 +101,9 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
