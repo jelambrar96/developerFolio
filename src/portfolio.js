@@ -164,8 +164,11 @@ const workExperiences = {
       date: "Mar 2023 - Sep 2023",
       desc: "",
       descBullets: [
-        "",
-        ""
+        "Collect, Analyze and process corporate data.", 
+        "Build ETL processes to obtain structuring and unstructured corporate data analysis.", 
+        "Implement AWS cloud computing tools for processing structured and unstructured data. AWS Lambda, AWS Glue, AWS S3.", 
+        "Implement best security practices and proper management of roles and permissions of stored information.", 
+        "Use data visualization tools to improve data understanding. Superset.", 
       ]
     },
     {
@@ -173,14 +176,31 @@ const workExperiences = {
       company: "E2 Energia Eficiente SA",
       companylogo: require("./assets/images/e2Logo.png"),
       date: "Jun 2021 - Mar 2023",
-      desc: ""
+      descBullets: [
+        "Collect and process large volumes of data.", 
+        "Use data analysis tools to generate reports.Grafana. ", 
+        "Design and develop databases to store the collected data. SQL relational and non-relational databases MongoDB, InfluxDB.", 
+        "Use data visualization tools to improve data understanding. Grafana, PowerBI, Tableau, QlikView and D3.js.", 
+        "Perform predictive analyzes to make informed decisions.", 
+        "Develop data mining models to detect patterns and trends.", 
+        "Establish information security standards and guarantee data protection.", 
+      ]
     },
     {
       role: "Software Engineer",
       company: "Ebenezer Technologies SAS",
       companylogo: require("./assets/images/ebenezerLogo.png"),
       date: "Feb 2019 - Jun 2021",
-      desc: "."
+      descBullets: [
+        "Design and develop of computer vision algorithms to process large amounts of data. C++.", 
+        "Create artificial vision models for object detection and tracking. C++.", 
+        "Implement Deep Learning and Machine Learning techniques to improve results in artificial vision systems.", 
+        "Design and develop Deep Neural Networks to process image data. Python, Tensorflow, Keras.", 
+        "Evaluate and debug developed computer vision algorithms to achieve optimal performance. Pytest, PyUnit/UnitTest.", 
+        "Use specialized software tools for image processing.Opencv. ", 
+        "Optimize artificial vision systems for better performance. ", 
+        "Investigate new trends and artificial vision technologies.", 
+      ]
     }
   ]
 };
