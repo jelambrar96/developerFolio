@@ -120,8 +120,6 @@ const educationInfo = {
       duration: "Enero 2014 - Marzo 2019",
       desc: "",
       descBullets: [
-        "",
-        ""
       ]
     }
   ]
@@ -164,8 +162,9 @@ const workExperiences = {
       date: "Mar 2023 - Sep 2023",
       desc: "",
       descBullets: [
-        "",
-        ""
+        "Build ETL processes to obtain structuring and unstructured corporate data analysis.", 
+        "Implement AWS cloud computing tools for processing structured and unstructured data. AWS Lambda, AWS Glue, AWS S3.", 
+        "Use data visualization tools to improve data understanding. Superset.", 
       ]
     },
     {
@@ -173,14 +172,24 @@ const workExperiences = {
       company: "E2 Energia Eficiente SA",
       companylogo: require("./assets/images/e2Logo.png"),
       date: "Jun 2021 - Mar 2023",
-      desc: ""
+      descBullets: [
+        "Collect and process and generate reports of large volumen of data. Grafana. ", 
+        "Design and develop databases to store the collected data. SQL relational and non-relational databases MongoDB, InfluxDB.", 
+        "Use data visualization tools to improve data understanding. Grafana, PowerBI, Tableau, QlikView and D3.js.", 
+        "Perform predictive analyzes to make informed decisions.", 
+      ]
     },
     {
       role: "Software Engineer",
       company: "Ebenezer Technologies SAS",
       companylogo: require("./assets/images/ebenezerLogo.png"),
       date: "Feb 2019 - Jun 2021",
-      desc: "."
+      descBullets: [
+        "Design and develop of computer vision algorithms to process large amounts of data. C++.", 
+        "Create artificial vision models for object detection and tracking. C++.", 
+        "Implement Deep Learning and Machine Learning techniques to improve results in artificial vision systems.", 
+        "Optimize artificial vision systems for better performance. ", 
+      ]
     }
   ]
 };
