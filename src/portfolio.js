@@ -23,10 +23,12 @@ const greeting = {
   username: "jelambrar",
   title: "Hi all,\nI'm Jorge Lambraño",
   subTitle: emoji(
-    "A passionate Software Developer and Data Engineer 🚀 having an experience of building applications with JavaScript / Python / Nodejs and some other cool libraries and frameworks and SQL and No-SQL databases."
+    "A passionate Software Developer and Data Engineer 🚀 having an experience of " +
+    "building applications with JavaScript / Python / Nodejs and some other cool " +
+    "libraries and frameworks and SQL and No-SQL databases."
   ),
-  resumeLink:
-    "https://github.com/jelambrar96/resumes/blob/master/markdown/jelambrar.pdf", // Set to empty to hide the button
+  // Set to empty to hide the button
+  resumeLink: "https://github.com/jelambrar96/resumes/blob/master/markdown/jelambrar.pdf", 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
