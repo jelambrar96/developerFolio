@@ -158,6 +158,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Data Manager and Data Scientist",
+      company: "Promigas SA",
+      companylogo: require("./assets/images/promigasLogo.png"),
+      date: "Dec 2024 - Jun 2025",
+      desc: "",
+      descBullets: [
+        "Extract and process large volumes of geographic and energy potential data. Subsequently, cross-reference the information with various internal and external sources.",
+        "Develop and implement product and service recommendation models tailored to customer needs.",
+        "Analyze consumption data to identify behavioral patterns and optimization opportunities.",
+      ]
+    },
+    {
+      role: "Python and Backend instructor",
+      company: "Alcaldía de Barranquilla",
+      companylogo: require("./assets/images/escudobaq.png"),
+      date: "Feb 2024 - Dec 2024",
+      desc: "",
+      descBullets: [
+        "Develop and organize educational programs tailored to the development of Python programming skills and computational thinking.",
+        "Explain complex concepts in a clear and comprehensible manner.",
+        "Create tests and projects to assess understanding and application of knowledge.",
+      ]
+    },    
+    {
       role: "Data Engineer",
       company: "Pragma SA",
       companylogo: require("./assets/images/pragmaLogo.png"),
