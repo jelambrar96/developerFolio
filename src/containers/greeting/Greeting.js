@@ -40,21 +40,23 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                { greeting.useLocalResume ? (
-                    <a
-                      href={require("./resume.pdf")}
-                      download="Resume.pdf"
-                      className="download-link-button"
-                    >
-                      <Button text="Download my resume" />
-                    </a>
-                  ) : ( greeting.resumeLink && (
+                {greeting.useLocalResume ? (
+                  <a
+                    href={require("./resume.pdf")}
+                    download="Resume.pdf"
+                    className="download-link-button"
+                  >
+                    <Button text="Download my resume" />
+                  </a>
+                ) : (
+                  greeting.resumeLink && (
                     <Button
                       text="See my resume"
                       newTab={true}
                       href={greeting.resumeLink}
                     />
-                  ))}
+                  )
+                )}
               </div>
             </div>
           </div>
