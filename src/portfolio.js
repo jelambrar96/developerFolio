@@ -356,22 +356,20 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Taks",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
   talks: [
-    /*
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Monitorea tu servidor local con telegraf, influxdb y grafana",
+      subtitle: "¿Cómo hacer seguimiento al uso de los recursos de nuestro hardware?",
+      slides_url: "https://github.com/jelambrar96/telegraf-influxdb2-grafana/blob/master/presentacion/presentacion.pdf",
+      event_url: "https://www.youtube.com/live/oGZobb0C9JQ?si=370BVxR5_v7H8qyP"
     }
-    */
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
