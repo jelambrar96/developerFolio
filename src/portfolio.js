@@ -27,8 +27,9 @@ const greeting = {
     "building applications with JavaScript / Python / Nodejs and some other cool " +
     "libraries and frameworks and SQL and No-SQL databases."
   ),
-  // Set to empty to hide the button
-  resumeLink: "https://github.com/jelambrar96/resumes/blob/master/markdown/jelambrar.pdf", 
+  resumeLink:
+    "https://github.com/jelambrar96/resumes/blob/master/markdown/jelambrar.pdf", // Set to empty to hide the button
+  useLocalResume: false, // Set to true to use local resume file
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
