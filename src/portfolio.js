@@ -356,9 +356,9 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "Taks",
+  title: "Talks",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I love to share my knowledge by giving talks at local meetups and conferences."
   ),
 
   talks: [
@@ -367,6 +367,12 @@ const talkSection = {
       subtitle: "¿Cómo hacer seguimiento al uso de los recursos de nuestro hardware?",
       slides_url: "https://github.com/jelambrar96/telegraf-influxdb2-grafana/blob/master/presentacion/presentacion.pdf",
       event_url: "https://www.youtube.com/live/oGZobb0C9JQ?si=370BVxR5_v7H8qyP"
+    },
+    {
+      title: "Descubre el valor de los datos geoespaciales",
+      subtitle: "Procesamiento y visualización con herramientas opensource",
+      slides_url: "https://github.com/jelambrar96/procesamiento-geoespacial/blob/master/presentacion/jorge-lambrano-opensatBQ-2025.pdf",
+      event_url: "https://youtu.be/6pcoxTLzt6U?t=6836"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -376,7 +382,7 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I love to talk about technology and development",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
