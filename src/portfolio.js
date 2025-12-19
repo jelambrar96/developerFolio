@@ -117,6 +117,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Universidad Internacional de la Rioja-UNIR",
+      logo: require("./assets/images/unirLogo.png"),
+      subHeader: "Máster Universitario en Inteligencia Artificial",
+      duration: "Enero 2024 - Diciembre 2025",
+      desc: "",
+      descBullets: [
+      ]
+    },
+    {
       schoolName: "Universidad del Norte",
       logo: require("./assets/images/uninorteLogo.png"),
       subHeader: "Ingeniero Electrónico",
